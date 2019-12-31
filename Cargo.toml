@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Phodal Huang <h@phodal.com>"]
+edition = "2018"
+description = "A sample project with wasm-pack"
+repository = "https://github.com/phodal/domain"
+
+[dependencies]

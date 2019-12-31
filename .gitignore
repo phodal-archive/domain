@@ -2,3 +2,5 @@
 **/*.rs.bk
 .idea
 antlr4rust
+domain/pkg
+domain/target

@@ -32,6 +32,8 @@ wee_alloc = { version = "0.4.2", optional = true }
 
 # The `web-sys` crate allows you to interact with the various browser APIs,
 # like the DOM.
+chrono = "0.4.10"
+
 [dependencies.web-sys]
 version = "0.3.22"
 features = ["console"]

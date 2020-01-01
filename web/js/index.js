@@ -1,6 +1,8 @@
-// import("../pkg/index.js").catch(console.error);
+let imp = import('../pkg');
 
-require.ensure([], function () {
-    const rust = require("../pkg");
-    rust.helo("hello, world!")
-});
+imp
+    .then(wasm => {
+        window.wasm = wasm;
+        wasm.helo("hello, world!")
+    })
+    .catch(console.error);

@@ -3,6 +3,7 @@
   "name": "rust-webpack-template",
   "version": "0.1.0",
   "scripts": {
+    "build:wasm": "wasm-pack build --scope domain",
     "build": "rimraf dist pkg && webpack",
     "start": "rimraf dist pkg && webpack-dev-server --open -d",
     "test": "cargo test && wasm-pack test --headless"
